@@ -20,6 +20,24 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 8
+    - useVariable: 1
+      name: PlayerX
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: PlayerY
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Direction
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     intVariables: []
     boolVariables: []
     stringVariables: []
@@ -49,5 +67,9 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000
-  events: []
+    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000
+  events:
+  - Down
+  - Left
+  - Right
+  - Up
