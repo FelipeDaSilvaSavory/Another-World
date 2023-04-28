@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CamSwitch
   - CamPlayer
+  - Sensor
   layers:
   - Default
   - TransparentFX
