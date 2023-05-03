@@ -9,11 +9,12 @@ TagManager:
   - Sensor
   - Ground
   - Bomb
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Bomb
   - Water
   - UI
   - 
