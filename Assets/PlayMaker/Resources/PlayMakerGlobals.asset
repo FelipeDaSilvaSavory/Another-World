@@ -50,6 +50,24 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 0
+    - useVariable: 1
+      name: PlayerStrength
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: AttackDamage
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 1
+    - useVariable: 1
+      name: PlayerDefence
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     intVariables:
     - useVariable: 1
       name: Health
@@ -62,24 +80,12 @@ MonoBehaviour:
     vector2Variables: []
     vector3Variables:
     - useVariable: 1
-      name: Movement
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: {x: 0, y: 0, z: 0}
-    - useVariable: 1
       name: FollowTarget
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: {x: 0, y: 0, z: 0}
-    colorVariables:
-    - useVariable: 1
-      name: HealthColour
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: {r: 0, g: 0, b: 0, a: 1}
+    colorVariables: []
     rectVariables: []
     quaternionVariables: []
     gameObjectVariables: []
@@ -90,11 +96,12 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - Down
   - Left
   - Right
   - Up
   - Attack
+  - Destroy
   - Damaged
