@@ -48,8 +48,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.2454834, y: 7.5507603, z: 7.1055775}
-  m_Center: {x: -0.057876576, y: 2.141553, z: -0.11592966}
+  m_Size: {x: 1.328743, y: 7.5507603, z: 2.0002255}
+  m_Center: {x: -0.5909335, y: 2.141553, z: -0.05695532}
 --- !u!114 &1367341000328648897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57,7 +57,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1367341000328648902}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
   m_Name: 
@@ -1267,7 +1267,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a90bc3ccf0114cd4c9a87f751e555aea, type: 3}
+  m_Sprite: {fileID: -2086389645, guid: ccd8f485adc53bb4e8688d422ed7aab3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
