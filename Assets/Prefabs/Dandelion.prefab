@@ -244,7 +244,7 @@ MonoBehaviour:
           name: Found
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 1
+        toState: Attack
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -365,7 +365,7 @@ MonoBehaviour:
         - realTime
         paramDataPos: 00000000000000000000000000000000000000000100000004000000010000000100000001000000000000000200000008000000
         paramByteDataSize: 00000000040000000000000000000000000000000000000004000000000000000000000000000000000000000000000001000000
-    - name: State 1
+    - name: Attack
       description: 
       colorIndex: 0
       position:
@@ -586,8 +586,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 53
-        y: 99
+        x: 68
+        y: 283.03125
         width: 100
         height: 16
       isBreakpoint: 0
@@ -633,13 +633,13 @@ MonoBehaviour:
         paramName: []
         paramDataPos: 
         paramByteDataSize: 
-    - name: State 2
+    - name: Pause
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 344
-        y: 100
+        x: 61
+        y: 102
         width: 100
         height: 32
       isBreakpoint: 0
@@ -650,7 +650,7 @@ MonoBehaviour:
           name: Done
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 3
+        toState: CreateObject
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -706,14 +706,14 @@ MonoBehaviour:
         - realTime
         paramDataPos: 000000000000000000000000
         paramByteDataSize: 000000000000000001000000
-    - name: State 3
+    - name: CreateObject
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 203
-        y: 108
-        width: 100
+        x: 62
+        y: 170
+        width: 109
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -828,7 +828,7 @@ MonoBehaviour:
         name: Attack
         isSystemEvent: 0
         isGlobal: 1
-      toState: State 2
+      toState: Pause
       linkStyle: 0
       linkConstraint: 0
       linkTarget: 0
@@ -915,15 +915,15 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: Health
-    startState: State 1
+    startState: SetHealth
     states:
-    - name: State 1
+    - name: SetHealth
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 50
-        y: 100
+        x: 55
+        y: 107
         width: 100
         height: 16
       isBreakpoint: 0
@@ -986,14 +986,14 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 000000000100000000000000
         paramByteDataSize: 000000000000000001000000
-    - name: State 2
+    - name: CheckHealth
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 204
+        x: 188
         y: 101
-        width: 100
+        width: 105
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -1003,7 +1003,7 @@ MonoBehaviour:
           name: Destroy
           isSystemEvent: 0
           isGlobal: 1
-        toState: State 3
+        toState: DeathAnim
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -1095,13 +1095,13 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 0000000001000000000000000100000002000000030000000400000000000000010000000200000002000000
         paramByteDataSize: 0000000000000000010000000100000000000000000000000000000000000000000000000000000001000000
-    - name: State 3
+    - name: DeathAnim
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 336
-        y: 173
+        x: 188
+        y: 172
         width: 100
         height: 16
       isBreakpoint: 0
@@ -1233,7 +1233,7 @@ MonoBehaviour:
         name: Damaged
         isSystemEvent: 0
         isGlobal: 1
-      toState: State 2
+      toState: CheckHealth
       linkStyle: 0
       linkConstraint: 0
       linkTarget: 0
@@ -1440,8 +1440,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 50
-        y: 100
+        x: 53
+        y: 114
         width: 100
         height: 16
       isBreakpoint: 0
@@ -1525,8 +1525,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 204.125
-        y: 102.0625
+        x: 202.13281
+        y: 113.0625
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1725,9 +1725,9 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: FSM
-    startState: Damaged
+    startState: Reset
     states:
-    - name: Damaged
+    - name: Reset
       description: 
       colorIndex: 0
       position:
@@ -1812,13 +1812,13 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 0000000000000000000000000000000000000000
         paramByteDataSize: 0000000000000000000000000000000001000000
-    - name: State 1
+    - name: Damaged
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 230
-        y: 112
+        x: 195
+        y: 103
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1829,7 +1829,7 @@ MonoBehaviour:
           name: Done
           isSystemEvent: 0
           isGlobal: 0
-        toState: Damaged
+        toState: Reset
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -1930,7 +1930,7 @@ MonoBehaviour:
         name: Damaged
         isSystemEvent: 0
         isGlobal: 1
-      toState: State 1
+      toState: Damaged
       linkStyle: 0
       linkConstraint: 0
       linkTarget: 0

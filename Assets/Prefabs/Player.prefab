@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 588037175}
   - component: {fileID: 588037174}
   m_Layer: 0
-  m_Name: Camera
+  m_Name: MiniMapCam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 1966485129}
   - component: {fileID: 1966485130}
   m_Layer: 6
-  m_Name: Square
+  m_Name: MiniMapSquare
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1402,8 +1402,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 564.8047
-        y: 110.96875
+        x: 458.6875
+        y: 115.828125
         width: 100
         height: 32
       isBreakpoint: 0
@@ -2792,7 +2792,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 418
+        x: 242
         y: 100
         width: 100
         height: 32
@@ -2865,7 +2865,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 405.21094
+        x: 229.21094
         y: 164.875
         width: 120
         height: 80
@@ -3065,8 +3065,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 50.867188
-        y: 188.09375
+        x: 54.289062
+        y: 167.51562
         width: 100
         height: 32
       isBreakpoint: 0
@@ -3187,8 +3187,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 627.96094
-        y: 347.5078
+        x: 397.10156
+        y: 294.01562
         width: 100
         height: 32
       isBreakpoint: 0
@@ -3309,8 +3309,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 185.83594
-        y: 344.7578
+        x: 76.92969
+        y: 266.64062
         width: 100
         height: 32
       isBreakpoint: 0
@@ -3431,8 +3431,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 763.6875
-        y: 260.76562
+        x: 427.3828
+        y: 204.57031
         width: 100
         height: 32
       isBreakpoint: 0
@@ -4048,15 +4048,15 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: Attack
-    startState: State 1
+    startState: GetInput
     states:
-    - name: State 1
+    - name: GetInput
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 67
-        y: 124
+        x: 66
+        y: 128
         width: 100
         height: 32
       isBreakpoint: 0
@@ -4129,8 +4129,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 65
-        y: 228
+        x: 60
+        y: 217
         width: 100
         height: 16
       isBreakpoint: 0
@@ -4226,8 +4226,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 260
-        y: 101
+        x: 236
+        y: 107
         width: 100
         height: 48
       isBreakpoint: 0
@@ -4238,7 +4238,7 @@ MonoBehaviour:
           name: Done
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 3
+        toState: DealDamage
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -4247,7 +4247,7 @@ MonoBehaviour:
           name: Unpressed
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 1
+        toState: GetInput
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -4376,14 +4376,14 @@ MonoBehaviour:
         - realTime
         paramDataPos: 0000000001000000020000000000000001000000030000000000000000000000000000000000000004000000000000000100000004000000
         paramByteDataSize: 0000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000001000000
-    - name: State 3
+    - name: DealDamage
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 291
-        y: 173
-        width: 100
+        x: 237
+        y: 232
+        width: 105
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -4393,7 +4393,7 @@ MonoBehaviour:
           name: Done
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 1
+        toState: GetInput
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
