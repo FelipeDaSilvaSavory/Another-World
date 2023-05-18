@@ -672,7 +672,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: 0
+            value: 1
           fsmComponent: {fileID: 0}
         fsmPropertyParams: []
         layoutOptionParams: []
