@@ -127,7 +127,7 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - Down
-        byteData: 00
+        byteData: 01
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
