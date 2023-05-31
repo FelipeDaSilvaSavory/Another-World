@@ -133,3 +133,7 @@ MonoBehaviour:
   - LevelUp
   - Dead
   - Damaged2
+  - Beam
+  - Vunerable
+  - Invunerable
+  - Summon

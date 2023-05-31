@@ -1293,7 +1293,7 @@ GameObject:
   - component: {fileID: 77390745}
   m_Layer: 0
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: Bramble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28399,6 +28399,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: -7271449666460269675, guid: d73bea837b98b6440809a3eeb4bed56e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: -7146521406498821007, guid: d73bea837b98b6440809a3eeb4bed56e,
         type: 3}
       propertyPath: m_Layer
@@ -38870,7 +38875,7 @@ GameObject:
   - component: {fileID: 1624809825}
   m_Layer: 0
   m_Name: Square (1)
-  m_TagString: Untagged
+  m_TagString: Bramble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48768,6 +48773,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BOSS (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2619835624782183717, guid: f45c7d572a4dffe40ae7e925e6a0643c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f45c7d572a4dffe40ae7e925e6a0643c, type: 3}
 --- !u!1001 &2100053473
@@ -50091,7 +50101,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31788
+  m_Name: pb_Mesh40938
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
