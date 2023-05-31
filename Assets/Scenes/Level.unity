@@ -34440,19 +34440,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2146658680}
   m_PrefabAsset: {fileID: 0}
---- !u!135 &1410299078
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1410299065}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.98437625
-  m_Center: {x: 0, y: 4.9999995, z: -0.19276406}
 --- !u!4 &1439503289 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 43b196ec2259f014cbe42b0c2fefbfad,

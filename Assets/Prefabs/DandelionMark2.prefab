@@ -1173,7 +1173,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 0}
+            value: {fileID: 1367341001083127783}
         - ownerOption: 1
           gameObject:
             useVariable: 0
@@ -1181,7 +1181,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 0}
+            value: {fileID: 1367341001083127783}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -1480,25 +1480,25 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 0}
+          value: {fileID: 3828936855602517445}
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 0}
+          value: {fileID: 5385840943090472354}
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 0}
+          value: {fileID: 8402612822624799843}
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 0}
+          value: {fileID: 5579707431227507970}
         - useVariable: 1
           name: AttackSpawn
           tooltip: 
@@ -1708,7 +1708,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 0}
+            value: {fileID: 1367341001083127783}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
