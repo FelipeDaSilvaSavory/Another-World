@@ -48760,11 +48760,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BOSS (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 2619835624782183717, guid: f45c7d572a4dffe40ae7e925e6a0643c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Enemy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f45c7d572a4dffe40ae7e925e6a0643c, type: 3}
 --- !u!1001 &2100053473
@@ -50088,7 +50083,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh40938
+  m_Name: pb_Mesh32040
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
